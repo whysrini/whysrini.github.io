@@ -41373,15 +41373,31 @@ p {
   padding: 30px 0;
 }
 
-.uil-xamarin::before {
+.uil-svg.uil-xamarin:before {
   content: "";
   width: 40px;
-  background-image: url("../images/icon/xamarin.svg");
+  height: 40px;
+  background-color: rgba(47,85,212,.9);
+  -webkit-mask-image: url("../images/icon/xamarin.svg");
+  mask-image: url("i../images/icon/xamarin.svg");
+  background-size: 40px;
 }
 
-.big-icon .uil.icon-xamarin::before {
-  background-image: url("../images/icon/xamarin.svg");
+.big-icon .uil-svg.uil-xamarin:before {
+  content: "";
   width: 180px;
+  height: 180px;
+  background-color: rgba(47,85,212,.9);
+  -webkit-mask-image: url("../images/icon/xamarin.svg");
+  mask-image: url("i../images/icon/xamarin.svg");
+  background-size: 130px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.features.fea-primary:hover .big-icon .uil-svg:before,
+.features.fea-primary:hover .icon2 .uil-svg:before {
+  background-color: rgba(255,255,255,.5)!important;
 }
 #preloader #status .spinner .double-bounce1,
 #preloader #status .spinner .double-bounce2,
