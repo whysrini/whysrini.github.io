@@ -41415,6 +41415,16 @@ p {
   -webkit-mask-image: url("../images/icon/aspnet.svg");
   mask-image: url("i../images/icon/aspnet.svg");
 }
+
+.big-icon .uil-svg.uil-react:before {
+  -webkit-mask-image: url("../images/icon/react.svg");
+  mask-image: url("i../images/icon/react.svg");
+}
+
+.uil-svg.uil-react:before {
+  -webkit-mask-image: url("../images/icon/react.svg");
+  mask-image: url("i../images/icon/react.svg");
+}
 #preloader #status .spinner .double-bounce1,
 #preloader #status .spinner .double-bounce2,
 #topnav .navbar-toggle.open span:hover,
