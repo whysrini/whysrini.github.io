@@ -41372,6 +41372,17 @@ p {
 .footer.footer-bar {
   padding: 30px 0;
 }
+
+.uil-xamarin::before {
+  content: "";
+  width: 40px;
+  background-image: url("../images/icon/xamarin.svg");
+}
+
+.big-icon .uil.icon-xamarin::before {
+  background-image: url("../images/icon/xamarin.svg");
+  width: 180px;
+}
 #preloader #status .spinner .double-bounce1,
 #preloader #status .spinner .double-bounce2,
 #topnav .navbar-toggle.open span:hover,
