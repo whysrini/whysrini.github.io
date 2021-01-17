@@ -41406,14 +41406,14 @@ p {
   mask-image: url("../images/icon/xamarin.svg");
 }
 
-.big-icon .uil-svg.uil-aspnet:before {
-  -webkit-mask-image: url("../images/icon/aspnet.svg");
-  mask-image: url("../images/icon/aspnet.svg");
+.big-icon .uil-svg.uil-web:before {
+  -webkit-mask-image: url("../images/icon/web.svg");
+  mask-image: url("../images/icon/web.svg");
 }
 
-.uil-svg.uil-aspnet:before {
-  -webkit-mask-image: url("../images/icon/aspnet.svg");
-  mask-image: url("../images/icon/aspnet.svg");
+.uil-svg.uil-web:before {
+  -webkit-mask-image: url("../images/icon/web.svg");
+  mask-image: url("../images/icon/web.svg");
 }
 #preloader #status .spinner .double-bounce1,
 #preloader #status .spinner .double-bounce2,
