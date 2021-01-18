@@ -41415,6 +41415,10 @@ p {
   -webkit-mask-image: url("../images/icon/web.svg");
   mask-image: url("../images/icon/web.svg");
 }
+
+.list-inline-item {
+  margin-left: 5px;
+}
 #preloader #status .spinner .double-bounce1,
 #preloader #status .spinner .double-bounce2,
 #topnav .navbar-toggle.open span:hover,
