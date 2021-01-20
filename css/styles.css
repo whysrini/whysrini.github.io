@@ -41419,6 +41419,38 @@ p {
 .list-inline-item {
   margin-left: 5px;
 }
+
+.bg-home:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(60,72,88,.7);
+  z-index: 2;
+}
+
+.bg-home .v-middle {
+  z-index: 11;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(0,-50%);
+  -moz-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  -o-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+}
+
+.bg-home .caption {
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
 #preloader #status .spinner .double-bounce1,
 #preloader #status .spinner .double-bounce2,
 #topnav .navbar-toggle.open span:hover,
