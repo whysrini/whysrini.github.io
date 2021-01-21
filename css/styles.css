@@ -41379,6 +41379,8 @@ p {
   height: 40px;
   background-color: rgba(47,85,212,.9);
   background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .big-icon .uil-svg:before {
@@ -41414,6 +41416,16 @@ p {
 .uil-svg.uil-web:before {
   -webkit-mask-image: url("../images/icon/web.svg");
   mask-image: url("../images/icon/web.svg");
+}
+
+.big-icon .uil-svg.uil-auth-user:before {
+  -webkit-mask-image: url("../images/icon/auth-user.svg");
+  mask-image: url("../images/icon/auth-user.svg");
+}
+
+.uil-svg.uil-auth-user:before {
+  -webkit-mask-image: url("../images/icon/auth-user.svg");
+  mask-image: url("../images/icon/auth-user.svg");
 }
 
 .list-inline-item {
