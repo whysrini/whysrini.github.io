@@ -41428,6 +41428,16 @@ p {
   mask-image: url("../images/icon/auth-user.svg");
 }
 
+.big-icon .uil-svg.uil-json:before {
+  -webkit-mask-image: url("../images/icon/json.svg");
+  mask-image: url("../images/icon/json.svg");
+}
+
+.uil-svg.uil-json:before {
+  -webkit-mask-image: url("../images/icon/json.svg");
+  mask-image: url("../images/icon/json.svg");
+}
+
 .list-inline-item {
   margin-left: 5px;
 }
