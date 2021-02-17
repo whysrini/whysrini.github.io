@@ -42462,6 +42462,14 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
+#topnav.sticky a.logo {
+  color: #fff!important;
+}
+
+#topnav.sticky.nav-sticky a.logo {
+  color: #000!important;
+}
 #preloader #status .spinner .double-bounce1,
 #preloader #status .spinner .double-bounce2,
 #topnav .navbar-toggle.open span:hover,
