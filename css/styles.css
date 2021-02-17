@@ -36849,6 +36849,12 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 [data-aos=flip-down].aos-animate {
   transform: perspective(2500px) rotateX(0);
 }
+@media (min-width:1400px) {
+  .container {
+    max-width: 1140px!important;
+  }
+}
+
 .row>* {
   position: relative;
 }
@@ -42450,6 +42456,11 @@ p {
 .uil-svg.uil-ef:before {
   -webkit-mask-image: url("../images/icon/json.svg");
   mask-image: url("../images/icon/json.svg");
+}
+
+.title-heading.text-center p.para-desc.text-muted.sub-heading {
+  margin-left: auto;
+  margin-right: auto;
 }
 #preloader #status .spinner .double-bounce1,
 #preloader #status .spinner .double-bounce2,
