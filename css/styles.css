@@ -42470,6 +42470,10 @@ p {
 #topnav.sticky.nav-sticky a.logo {
   color: #000!important;
 }
+
+.list-unstyled.social-icon li {
+  margin-right: 10px;
+}
 #preloader #status .spinner .double-bounce1,
 #preloader #status .spinner .double-bounce2,
 #topnav .navbar-toggle.open span:hover,
