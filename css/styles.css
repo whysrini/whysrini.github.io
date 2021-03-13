@@ -42448,14 +42448,14 @@ p {
   mask-image: url("../images/icon/json.svg");
 }
 
-.big-icon .uil-svg.uil-ef:before {
-  -webkit-mask-image: url("../images/icon/json.svg");
-  mask-image: url("../images/icon/json.svg");
+.big-icon .uil-svg.uil-blazor:before {
+  -webkit-mask-image: url("../images/icon/blazor.svg");
+  mask-image: url("../images/icon/blazor.svg");
 }
 
-.uil-svg.uil-ef:before {
-  -webkit-mask-image: url("../images/icon/json.svg");
-  mask-image: url("../images/icon/json.svg");
+.uil-svg.uil-blazor:before {
+  -webkit-mask-image: url("../images/icon/blazor.svg");
+  mask-image: url("../images/icon/blazor.svg");
 }
 
 .title-heading.text-center p.para-desc.text-muted.sub-heading {
