@@ -22,7 +22,7 @@ $('a[data-id]').on('click', function(e){
 });
 
 $(document).scroll(function(){
-    $('header').toggleClass("bg-white/70 backdrop-blur-lg shadow-xl !text-black", $(this).scrollTop() > headerOffset);
+    $('header').toggleClass("bg-white/70 backdrop-blur backdrop-blur-lg shadow-xl !text-black", $(this).scrollTop() > headerOffset);
 });
 
 
